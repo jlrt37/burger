@@ -1,7 +1,3 @@
--- Creating seed data for the burgers_db database --
-INSERT INTO burgers (burger_name, devoured) VALUES ('Double Bacon Cheeseburger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Turkey Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Cheeseburger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Veggie Burger', true);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Buffalo Burger', true);
-INSERT INTO burgers (burger_name, devoured) VALUES ('No Burger', true);
+INSERT INTO sellers (address, products, costs) VALUES ('1100 Jackson Ct, Liberty, MO 64068', 'clothes, electronics, treadmill', 5.00, false);
+INSERT INTO sellers (address, products, costs) VALUES ('19040 E Valley View Pkwy, Independence, MO 64055', 'dvds, toys, hulahoops', 50.00, false);
+INSERT INTO sellers (address, products, costs) VALUES ('', 'pencils, clothes, books', 9500.00, false);
